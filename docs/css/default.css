@@ -1,0 +1,112 @@
+*, :before, :after {
+	box-sizing: border-box;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+a, a:visited {
+	color: #000;
+	font-size: 0.8rem;
+            }
+img {
+	max-width: 100%;
+	height: auto;
+}
+html {
+	font-size: 16px;
+}
+body {
+    font-family: Helvetica,Arial,sans-serif;
+	line-height: 1.42857143;
+}
+h1 {
+	text-align: left;
+}
+.container {
+	position: relative;
+	width: 90%;
+	margin: auto;
+	padding-top: 1.25rem;
+}
+.layer {
+	padding: 0 0 1.25rem;
+}
+.header {
+    text-align: center;
+}
+.homepage {
+	display: none;
+}
+.header .title {
+	font-size: 1.5rem;
+}
+.header .logo {
+    max-width: 40%;
+	margin-bottom: 1.25rem;
+}
+.episode {
+    border-top: 1px solid black;
+	padding-top: 1.25rem;
+	margin-top: 1.25rem;
+}
+.episode .title {
+	font-size: 1.125rem;
+}
+.episode .title, .episode .description {
+	margin-bottom: 1rem;
+}
+.share {
+	text-align: center;
+	margin-top: 2rem;
+}
+.soundcloud, .instagram, .itunes, .deezer, .stitcher, .facebook, .audible {
+	display: inline-block;
+	width: 85px;
+}
+.deezer, .stitcher {
+	vertical-align: 0.5rem;
+	background-color: black;
+	padding: 0.375rem 0.2rem;
+}
+.soundcloud {
+	vertical-align: 0.5rem;
+    background-color: rgba(255, 72, 0, 0.8);
+	padding: 0.375rem 0.2rem;
+}
+.audible {
+	padding: 0.375rem 0.2rem;
+}
+@media screen and (min-width: 426px){
+	.container {
+		width: 80%;
+	}
+	.header .logo {
+		max-width: 185px;
+	}
+	.homepage {
+		display: none;
+	}
+}
+@media screen and (min-width: 1024px){
+	.container {
+		width: 60%;
+	}
+	.logo {
+		display: none;
+	}
+	.homepage {
+		display: block;
+	}
+}
+@media screen and (min-width: 1440px){
+	.container {
+		width: 50%;
+	}
+	.logo {
+		display: none;
+	}
+	.homepage {
+		display: block;
+	}
+}
