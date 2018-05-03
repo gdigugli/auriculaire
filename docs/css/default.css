@@ -60,11 +60,14 @@ h1 {
 	text-align: center;
 	margin-top: 2rem;
 }
-.soundcloud, .instagram, .itunes, .deezer, .stitcher, .facebook, .audible, .youtube {
+.soundcloud, .instagram, .itunes, .deezer, .facebook, .twitter, .audible, .youtube {
 	display: inline-block;
 	width: 85px;
 }
-.deezer, .stitcher {
+.twitter {
+	width: 34px;
+}
+.deezer {
 	vertical-align: 0.5rem;
 	background-color: black;
 	padding: 0.375rem 0.2rem;
