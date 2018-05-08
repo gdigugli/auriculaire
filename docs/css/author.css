@@ -66,12 +66,15 @@ h1 {
 	text-align: center;
 	margin-top: 2rem;
 }
-.soundcloud, .instagram, .itunes, .deezer, .facebook, .twitter, .audible, .youtube {
+.soundcloud, .instagram, .itunes, .deezer, .facebook, .twitter, .audible, .youtube, .rss {
 	display: inline-block;
 	width: 85px;
 }
 .twitter {
-	width: 34px;
+	width: 30px;
+}
+.rss {
+	width: 26px;
 }
 .deezer {
 	vertical-align: 0.5rem;
